@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 127.0253,
+    "lat": 37.4956
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 279.19,
+    "feels_like": 279.19,
+    "temp_min": 277.12,
+    "temp_max": 280.14,
+    "pressure": 1027,
+    "humidity": 42
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.51,
+    "deg": 20
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1648474017,
+  "sys": {
+    "type": 1,
+    "id": 8096,
+    "country": "KR",
+    "sunrise": 1648416247,
+    "sunset": 1648460994
+  },
+  "timezone": 32400,
+  "id": 1846735,
+  "name": "Jamwon-dong",
+  "cod": 200
+}
