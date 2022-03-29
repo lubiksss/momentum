@@ -6,9 +6,20 @@ const images = [
     "4.jpg",
     "5.jpg"
 ]
-const chosenImage = images[Math.floor(Math.random() * images.length)]
 
-const bgImage = document.createElement("img");
-bgImage.src = `img/${chosenImage}`
+function removeBackground() {
+    const existingImg = document.querySelector("img")
+    if (existingImg) {
+        existingImg.remove()
+    }
+}
 
-document.body.appendChild(bgImage)
+function getBackground() {
+    removeBackground()
+    const chosenImage = images[Math.floor(Math.random() * images.length)]
+    const bgImage = document.createElement("img");
+    bgImage.src = `img/${chosenImage}`
+    document.body.appendChild(bgImage)
+}
+
+getBackground()
