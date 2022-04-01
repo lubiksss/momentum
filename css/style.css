@@ -21,8 +21,17 @@ img {
     width: 100%;
 }
 
+#login-form {
+    width: 400px;
+    text-align: center;
+}
+
 #login-form input {
-    font-size: 30px;
+    text-align: center;
+    font-size: 29px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 #greeting {
@@ -36,21 +45,25 @@ img {
     text-align: center;
     font-size: 20px;
     margin: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 0;
     background-color: rgba(255, 255, 255, 0.7);
+
 }
 
 #todo-list {
     width: 400px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
 }
 
 #todo-list li {
-    margin-left: 100px;
+    margin: 3px 2px 3px 70px;
     font-size: 20px;
     font-weight: 600;
+    width: calc(100% - 100px);
+    overflow: hidden;
 }
 
 #todo-list li button {
@@ -67,6 +80,5 @@ img {
     font-size: 20px;
     font-weight: 500;
     padding: 10px;
-    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
 }
