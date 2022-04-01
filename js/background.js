@@ -21,7 +21,7 @@ function getBackground() {
     // bgImage.src = `img/${chosenImage}`
     // document.body.appendChild(bgImage)
     document.body.style.backgroundSize = 'cover';
-    document.body.style.backgroundImage = `url("/img/${chosenImage}")`;
+    document.body.style.backgroundImage = `url("./img/${chosenImage}")`;
 }
 
 getBackground()
